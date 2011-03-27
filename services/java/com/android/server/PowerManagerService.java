@@ -2581,7 +2581,8 @@ class PowerManagerService extends IPowerManager.Stub
                     userActivity(SystemClock.uptimeMillis(), false, BUTTON_EVENT, true);
                 }
             }
-    }
+		}
+	}
 
     /**
      * When the keyguard is up, it manages the power state, and userActivity doesn't do anything.
